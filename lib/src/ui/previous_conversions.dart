@@ -31,11 +31,14 @@ class PreviousConversionsState extends State<PreviousConversions> {
     screenSize = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
+        iconTheme: IconThemeData(
+          color: Colors.black, //change your color here
+        ),
         backgroundColor: Colors.transparent,
         elevation: 0.0,
         title: Text(
           "My Conversions",
-          style: TextStyle(fontWeight: FontWeight.bold),
+          style: TextStyle(fontWeight: FontWeight.bold,color: Colors.black),
         ),
       ),
       body: ModalProgressHUD(

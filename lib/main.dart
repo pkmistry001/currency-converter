@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       title: 'Currency Converter',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: Colors.white,
+        primaryColor: Colors.green,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: HomePage(),
